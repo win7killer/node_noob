@@ -1,6 +1,6 @@
 const http = require('http');
 const querystring = require('querystring');
-const qs = require('qs');
+
 const { URL } = require('url');
 
 const app = http.createServer((req, res, ...args) => {
