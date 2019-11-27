@@ -28,4 +28,11 @@ function fileStats() {
 }
 
 
-fileStats();
+function fileAppendWrite () {
+    let fd = fs.openSync('./log.txt', 'a+');
+    fs.writeSync(fd, `log${Math.random()}\n\n`);
+}
+
+
+// fileStats();
+fileAppendWrite()
