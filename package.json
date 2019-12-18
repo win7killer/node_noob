@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js FILE='./src/onion.ts'"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,23 @@
   },
   "homepage": "https://github.com/win7killer/node_noob#readme",
   "dependencies": {
+    "@koa/cors": "^2.2.3",
     "colors": "^1.4.0",
-    "koa": "^2.11.0"
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-cdn": "^2.0.0",
+    "koa-compose": "^4.1.0",
+    "koa-ejs": "^4.3.0",
+    "koa-gzip": "^0.1.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-markdown": "^2.0.2",
+    "koa-router": "^7.4.0",
+    "koa-safe-jsonp": "^0.3.1",
+    "koa-session": "^5.12.3",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.2.1",
+    "open": "^7.0.0",
+    "typescript": "^3.7.3"
   }
 }
